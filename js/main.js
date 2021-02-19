@@ -69,7 +69,7 @@ while (count <= 5) {
 alert(d.getMonth() + 1); //Você pode ter pegar dados unicos como, dia, mes, ano, hora e por ai vai
 */
 
-//trabalhando com funções
+/*//trabalhando com funções
 function soma(n1, n2) {
   return n1 + n2;
 }
@@ -89,4 +89,38 @@ function validaIdade(idade) {
   }
 }
 
-console.log(validaIdade(idade));
+console.log(validaIdade(idade)); */
+
+//Manipulando elementos da Página
+function btn() {
+  document.getElementById("obg").innerHTML =
+    "<strong>Obrigado</strong> por clicar!";
+  //getElementById pega o elemento pelo id
+  //innerHTML injeta codigo html
+  //alert("Ahn!");
+}
+
+function btnpage() {
+  //Window.open abre em uma nova aba apartir da url colocada
+  //window.location.href abre na mesma janela
+  window.open("https://github.com/Calebe-Xavier-Developer");
+}
+
+//Você pode ejetar elementos hmtl via id ou apenas declarando this no elemento pelo proprio html
+function hover(element) {
+  // document.getElementById("hover").innerHTML =
+  element.innerHTML = "Passou o Mouse em mim ! Ahnnnnnnnnn!";
+}
+
+function voltar(element) {
+  //document.getElementById("hover").innerHTML = "Passe o mouse aqui!";
+  element.innerHTML = "Passe o mouse aqui!";
+}
+
+function load() {
+  alert("página carregada!");
+}
+
+function change(elemento) {
+  console.log(elemento.value);
+}

@@ -12,7 +12,23 @@
     <title>JavaScript Concepts</title>
     <script type="text/javascript" src="js/main.js"></script>
   </head>
-  <body>
+  <body onload="load()">
     <h1>JavaScript na Prática</h1>
+    <input type="button" value="Aperte em mim" onclick="btn()" />
+    <p id="obg"></p>
+
+    <input type="button" value="Me leve" onclick="btnpage()" />
+    <p id="hover" onmouseout="voltar(this)" onmouseover="hover(this)">
+      Passe o mouse sobre mim
+    </p>
+    <p id="hover2" onmouseout="voltar(this)" onmouseover="hover(this)">
+      Passe o mouse sobre mim
+    </p>
+
+    <select onchange="change(this)">
+      <option value="1">Valor 1</option>
+      <option value="2">Valor 2</option>
+      <option value="3">Valor 3</option>
+    </select>
   </body>
 </html>
