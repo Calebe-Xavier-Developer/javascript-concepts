@@ -1,4 +1,4 @@
-//Variaveis e tipos
+/*//Variaveis e tipos
 var nome = "Calebe de Vasconcelos Xavier";
 var idade = 22;
 var frase = "Moro no Brazil";
@@ -23,7 +23,7 @@ console.log(frutas[1].cor);
   "Meu primeiro js! Seja Bem vindo " + nome + ". Você tem " + idade + " anos"
 ); //serve para fazer uma popup de alerta na página ao carregar */
 
-console.log(frase); //Console.log imprime no console do navegador
+/*console.log(frase); //Console.log imprime no console do navegador
 
 console.log(frase.replace("Moro no Brazil", "Quero morar em Portugal")); // .replace substitui a primeira palavra pela segunda
 
@@ -43,7 +43,7 @@ console.log(lista[1]); //Mostrar o elemento localizado em segundo lugar
 
 /*********************************************************** */
 //Condicional
-var age = prompt("Qual sua idade?"); //Interage com o usuario
+/*var age = prompt("Qual sua idade?"); //Interage com o usuario
 
 //Condicional
 if (age <= 15) {
@@ -65,5 +65,28 @@ while (count <= 5) {
 
 //como pegar a data atual ?
 
-var d = new Date(); //Date puxa o valor do fuso em que o usuario está
+/*var d = new Date(); //Date puxa o valor do fuso em que o usuario está
 alert(d.getMonth() + 1); //Você pode ter pegar dados unicos como, dia, mes, ano, hora e por ai vai
+*/
+
+//trabalhando com funções
+function soma(n1, n2) {
+  return n1 + n2;
+}
+alert(soma(5, 10));
+
+function setReplace(frase, nome, novo_nome) {
+  return frase.replace(nome, novo_nome);
+}
+alert(setReplace("Eu amo o Brazil", "amo", "odeio"));
+
+var idade = prompt("Qual sua idade ?");
+function validaIdade(idade) {
+  if (idade >= 18) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(validaIdade(idade));
