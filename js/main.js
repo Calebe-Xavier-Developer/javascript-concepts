@@ -1,7 +1,9 @@
+//Variaveis e tipos
 var nome = "Calebe de Vasconcelos Xavier";
 var idade = 22;
 var frase = "Moro no Brazil";
 
+//Listas e Arrays
 var lista = ["maça", "pêra", "laranja"];
 lista.push("uva"); //colocar elemento na lista
 lista.pop(); //tirar o ultimo eleemnto da lista
@@ -38,3 +40,30 @@ console.log(lista.length); //ver a tamanho total da lista
 console.log(lista.reverse()); //ver os elementos em contrario
 
 console.log(lista[1]); //Mostrar o elemento localizado em segundo lugar
+
+/*********************************************************** */
+//Condicional
+var age = prompt("Qual sua idade?"); //Interage com o usuario
+
+//Condicional
+if (age <= 15) {
+  alert("Vc é novo!");
+} else {
+  alert("Vc é velho!");
+}
+
+//laços de repetição
+var count = 0;
+while (count <= 5) {
+  console.log(count);
+  count++;
+}
+
+/*for (count = 0; count <= 10; count++) {
+  alert(count);
+}*/
+
+//como pegar a data atual ?
+
+var d = new Date(); //Date puxa o valor do fuso em que o usuario está
+alert(d.getMonth() + 1); //Você pode ter pegar dados unicos como, dia, mes, ano, hora e por ai vai
