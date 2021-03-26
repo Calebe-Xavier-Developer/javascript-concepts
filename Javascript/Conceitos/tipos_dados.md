@@ -18,3 +18,37 @@
     * Conceito e escrita
     
     > Aprender os tipos de dados mais utilizados na linguagem
+
+
+## Revisão
+
+    Conforme o ECMAScript standard existem 9 tipos de dados:
+
+    * Data TYpes
+        * Primitive / Primitive value
+        * Structural
+        * Structural Primitive
+
+## Primitivos (Não é objeto e o valor não muda, é constante)
+
+    * String
+    * Number
+    * Boolean
+    * undefined
+    * Symbol
+    * BigInt
+
+## Estruturais
+
+    * Object
+        * Array
+        * Map
+        * Set
+        * Date
+        * ...
+    
+    * Function
+
+## Primitivo Estrutural / Structural Root Primite
+
+    * null
