@@ -1,0 +1,20 @@
+# Tipos de dados
+
+    * Gramática
+        * Elementos da linguagem e suas combinações
+        * A arte de falar e escrever corretamente
+
+    * Vocabulário
+        * Conjunto de termos e expressões
+        * Agrupamento de palavras
+
+    * Preciso saber como escrever
+    * Preciso saber os significados
+    * Preciso continuar aprendendp, para aumentar o vocabulário.
+
+
+## Como vai ser a dinamica desse modulo ?
+
+    * Conceito e escrita
+    
+    > Aprender os tipos de dados mais utilizados na linguagem
