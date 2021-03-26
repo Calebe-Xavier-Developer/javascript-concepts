@@ -1,11 +1,17 @@
 /* 
-    * undefined
-        * indefinido
-
-    * null
-        * nulo
-        * ojeto que não possui nada dentro
-        * diferente de indefinido
-
+* Object
+    * Objeto
+    * Propriedades / Atributos
+    * Funcionalidades / Métodos
+    
+    { propriedades: "valor"}
 */
-console.log(undefined === null);
+console.log({
+    name: "Maquinas",
+    color: "BlueSkye",
+    criar_tag: function(){
+            console.log('criar tag');
+    }
+
+});
+/**********************************************************/

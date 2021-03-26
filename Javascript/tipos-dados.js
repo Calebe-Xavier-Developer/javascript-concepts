@@ -9,6 +9,7 @@
 
 */
 console.log(` Calebe tem ${20 + 1} anos`);
+/**********************************************************/
 
 /* 
     Number
@@ -21,7 +22,7 @@ console.log(` Calebe tem ${20 + 1} anos`);
 */
 
 console.log((45.6 + 54) * 0.5 === Infinity);
-
+/**********************************************************/
 
 /* 
     Boolean
@@ -33,3 +34,18 @@ console.log((45.6 + 54) * 0.5 === Infinity);
 */
 
 console.log(false == !true);
+/**********************************************************/
+
+
+/* 
+    * undefined
+        * indefinido
+
+    * null
+        * nulo
+        * ojeto que não possui nada dentro
+        * diferente de indefinido
+
+*/
+console.log(undefined === null);
+/**********************************************************/
