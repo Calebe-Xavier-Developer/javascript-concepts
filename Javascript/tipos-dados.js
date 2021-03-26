@@ -49,3 +49,37 @@ console.log(false == !true);
 */
 console.log(undefined === null);
 /**********************************************************/
+
+/* 
+* Object
+    * Objeto
+    * Propriedades / Atributos
+    * Funcionalidades / Métodos
+    
+    { propriedades: "valor"}
+*/
+console.log({
+    name: "Maquinas",
+    color: "BlueSkye",
+    criar_tag: function(){
+            console.log('criar tag');
+    }
+
+});
+/**********************************************************/
+
+/* 
+* Array (Vetores)
+    * Imagina sendo uma lista
+    * Serve para agrupar dados
+    
+    ["Calebe", 21]
+*/
+console.log([
+    "Arroz", 
+    "Feijão",
+    "Dinheiro",
+    "Pagar luz",
+    "chocolate"
+]);
+/**********************************************************/
